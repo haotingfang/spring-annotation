@@ -17,7 +17,6 @@ import com.atguigu.condition.LinuxCondition;
 import com.atguigu.condition.MyImportBeanDefinitionRegistrar;
 import com.atguigu.condition.MyImportSelector;
 import com.atguigu.condition.WindowsCondition;
-import com.atguigu.test.IOCTest;
 
 //类中组件统一设置。满足当前条件，这个类中配置的所有bean注册才能生效；
 @Conditional({WindowsCondition.class})
